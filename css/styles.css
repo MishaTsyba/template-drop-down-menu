@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'nexa_boldregular';
+    src: url('../fonts/nexa_bold-webfont.woff2') format('woff2'), url('../fonts/nexa_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container {
+    font-family: 'nexa_boldregular', Arial, sans-serif;
+    text-transform: uppercase;
+    max-width: 1365px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul li {
+    border-bottom: 1px solid grey;
+    border-left: 5px solid grey;
+}
+
+nav>ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav>ul>li:last-child {
+    border-right: 5px solid grey;
+}
+
+li a {
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 15px;
+    display: block;
+    transition: 0.5s all;
+}
+
+nav>ul>li {
+    flex: 1 1 10%;
+    position: relative;
+}
+
+li a:hover {
+    background-color: grey;
+}
+
+li ul {
+    position: absolute;
+    background-color: #333333;
+    display: none;
+    width: 100%;
+    border-top: 1px solid grey;
+}
+
+nav>ul>li>ul {
+    top: 40px;
+}
+
+nav>ul>li>ul>li>ul {
+    top: 5px;
+    left: 100%;
+}
+
+nav>ul>li>ul>li:nth-child(2)>ul {
+    top: 45px;
+}
+
+nav>ul>li>ul>li>ul>li>ul>li:nth-child(2)>ul {
+    top: 45px;
+}
+
+nav>ul>li>ul>li:nth-child(3)>ul {
+    top: 85px;
+}
+
+
+nav>ul>li>ul>li>ul>li>ul {
+    top: 10px;
+    left: 100%;
+}
+
+nav>ul>li>ul>li>ul>li>ul>li>ul {
+    top: 10px;
+    left: 100%;
+}
+
+li:hover>ul {
+    display: block;
+}
