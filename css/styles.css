@@ -70,6 +70,11 @@ nav>ul>li>ul>li>ul {
     left: 100%;
 }
 
+nav>ul>li>ul>li>ul>li>ul>li>ul {
+    top: 10px;
+    left: 100%;
+}
+
 nav>ul>li>ul>li:nth-child(2)>ul {
     top: 45px;
 }
@@ -82,13 +87,7 @@ nav>ul>li>ul>li:nth-child(3)>ul {
     top: 85px;
 }
 
-
 nav>ul>li>ul>li>ul>li>ul {
-    top: 10px;
-    left: 100%;
-}
-
-nav>ul>li>ul>li>ul>li>ul>li>ul {
     top: 10px;
     left: 100%;
 }
