@@ -1,12 +1,5 @@
-@font-face {
-    font-family: 'nexa_boldregular';
-    src: url('../fonts/nexa_bold-webfont.woff2') format('woff2'), url('../fonts/nexa_bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
 .container {
-    font-family: 'nexa_boldregular', Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     max-width: 1365px;
     width: 100%;
